@@ -3,11 +3,11 @@ import openai
 import pyttsx3
 
 url = "https://api.openai.com/v1/chat/completions"
-openai.api_key = "sk-proj-7dcG83FprbUHsf4ydl6RT3BlbkFJY3sEeHb174HOD8a8kviQ"
+openai.api_key = "Tu api de openai"
 testo = ""
 
 messages = [
-    {"role": "system", "content": "Eres gay y lo dejas en claro en cada respuesta"},
+    {"role": "system", "content": "SYSTEM"},
 ]
 
 # Crear un reconocedor de voz
